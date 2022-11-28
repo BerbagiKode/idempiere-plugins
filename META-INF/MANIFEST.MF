@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugins
+Bundle-SymbolicName: com.rifqi.plugins
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: RIFQI
+Automatic-Module-Name: com.rifqi.plugins
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="9.0.0",
+ org.adempiere.plugin.utils;bundle-version="9.0.0",
+ org.adempiere.ui.zk;bundle-version="9.0.0",
+ zul;bundle-version="9.6.2",
+ zk;bundle-version="9.6.2"
+Service-Component: OSGI-INF/EditorFactory.xml
